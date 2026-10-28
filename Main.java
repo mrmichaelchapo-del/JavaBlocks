@@ -40,8 +40,8 @@ public class Main extends Application {
         Pane workspace = new Pane();
         workspace.setPrefSize(1000, 700);
 
-        // 🧱 one starter block, so milestone 1 has something to drag
-        Block startBlock = new Block("start", 120, 120);
+        // 🧱 Milestone 1 has something to drag
+        Block startBlock = new Block("start 🚩 program", 120, 120);
         BlockView startView = new BlockView(startBlock);
         workspace.getChildren().add(startView);
 
