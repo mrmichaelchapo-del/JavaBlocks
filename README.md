@@ -169,3 +169,23 @@ mvn clean package
 ```
 
 ---
+
+# 🎨 Styling
+
+UI styling is JavaFX CSS in `/css/blocks.css` — no HTML involved. Style classes like .block, .block-start, .workspace, and .console are applied from Java with getStyleClass().add(...).
+
+JavaFX CSS uses -fx- properties only (-fx-background-color, -fx-border-radius, …) and supports pseudo-classes like :hover and :pressed without any Java code.
+
+---
+
+# 🧭 Design principles
+
+1. Blocks are files. Drop a *Block.java in and it runs. No registry,
+   no plugin manifest, no annotations.
+2. Plain Java first. Math for math, System.out for output, main
+   for entry. The language is the API.
+3. Human-written production code. AI drafts, humans ship.
+4. Small, honest milestones. Each one demos something real.
+5. Local-first. The server can be down and the IDE still works.
+
+---
