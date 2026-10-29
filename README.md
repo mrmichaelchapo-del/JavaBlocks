@@ -197,11 +197,11 @@ JavaFX CSS uses -fx- properties only (-fx-background-color, -fx-border-radius, â
 - [x] In-app console with streamed output
 - [x] Move / turn / go-to blocks
 - [x] JavaFX CSS styling
-- [] Drag handlers with translateX/translateY
-- [] Manual block snapping (localToParent bounds comparison)
-- [] Snap-to-grid on release
-- [] Compile output redirected to blocks/out
-- [] Sprite system with backdrops
-- [] Block palette UI
-- [] Project save/load
-- [] Server sync (once maintenance is done)
+- [ ] Drag handlers with translateX/translateY
+- [ ] Manual block snapping (localToParent bounds comparison)
+- [ ] Snap-to-grid on release
+- [ ] Compile output redirected to blocks/out
+- [ ] Sprite system with backdrops
+- [ ] Block palette UI
+- [ ] Project save/load
+- [ ] Server sync (once maintenance is done)
