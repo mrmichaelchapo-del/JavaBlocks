@@ -111,3 +111,35 @@ directory. Redirecting them to blocks/out/ is a planned improvement.
 
 <small>All math comes from java.lang.Math, which is auto-imported. No imports
 needed, ever, for Math.</small>
+
+---
+
+# 🚩 Running blocks
+
+Press the start 🚩 program block on the workspace. The runner:
+
+1. Scans blocks/ for every *Block.java file.
+2. Sorts them by file name (so execution order is predictable).
+3. Compiles them together with the in-process javac tool.
+4. Runs each class in order with the in-process java tool.
+5. Streams all output into the console.
+
+Compilation happens once, before any block runs. If compilation fails,
+nothing runs and the console tells you why. Running happens on a
+background thread so the UI never freezes.
+
+Console output
+
+Every run logs its phases:
+
+```output
+🚩 Starting all blocks...
+📦 Found 4 block file(s).
+⚙️ Compiling blocks...
+✅ Compilation succeeded.
+▶️ Running GoToSpriteBlock ...
+🏁 GoToSpriteBlock finished (exit 0).
+▶️ Running MoveStepsBlock ...
+🏁 MoveStepsBlock finished (exit 0).
+All blocks executed — done ✅ 
+```
