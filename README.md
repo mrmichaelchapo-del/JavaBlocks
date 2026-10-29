@@ -155,3 +155,17 @@ JavaBlocks uses the in-process compiler and runner, so a JDK is required
 — a JRE alone won't cut it.
 
 ---
+
+# ▶️ Build & run
+
+```bash
+mvn javafx:run
+```
+
+Or build a jar:
+
+```bash
+mvn clean package
+```
+
+---
