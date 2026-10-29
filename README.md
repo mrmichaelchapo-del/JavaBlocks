@@ -208,9 +208,14 @@ JavaFX CSS uses -fx- properties only (-fx-background-color, -fx-border-radius, �
 
 ## 🐛 Known issues
 
-· The server is occasionally down for maintenance — local work is unaffected.
-· Compiled .class files land in the project root instead of blocks/out/.
-· There is no snapping yet; blocks can overlap freely.
-· Blocks run in file-name order with no way to reorder them from the UI.
-· DIRECTION and sprite positions are constants inside each block, not
-  shared state, because there's no sprite system yet.
+- The server is occasionally down for maintenance — local work is unaffected.
+- Compiled .class files land in the project root instead of blocks/out/.
+- There is no snapping yet; blocks can overlap freely.
+- Blocks run in file-name order with no way to reorder them from the UI.
+- DIRECTION and sprite positions are constants inside each block, not shared state, because there's no sprite system yet.
+
+---
+
+# 📜 License
+
+Apache License 2.0. See the header in each source file.
