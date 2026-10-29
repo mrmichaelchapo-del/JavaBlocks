@@ -148,8 +148,8 @@ All blocks executed — done ✅
 
 # 🛠️ Requirements
 
-· JDK 21+
-· Maven 3.8+
+- JDK 21+
+- Maven 3.8+
 
 JavaBlocks uses the in-process compiler and runner, so a JDK is required
 — a JRE alone won't cut it.
