@@ -85,3 +85,15 @@ The placeholder block says it best:
  *
  * Write something, it's just Java.
 */
+
+## Why plain Java?
+
+Because the whole point is that anyone who knows Java can drop a file
+into blocks/ and have a working block. No DSL to learn, no build step
+to configure, no separate runtime. The block is the program.
+
+## Compiled output
+
+By default the compiled .class files land in the project root, because
+the runner uses the in-process javac tool without a -d output
+directory. Redirecting them to blocks/out/ is a planned improvement.
