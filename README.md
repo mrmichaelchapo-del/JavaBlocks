@@ -97,3 +97,17 @@ to configure, no separate runtime. The block is the program.
 By default the compiled .class files land in the project root, because
 the runner uses the in-process javac tool without a -d output
 directory. Redirecting them to blocks/out/ is a planned improvement.
+
+---
+
+## 📚 Block catalog
+
+### 🧱 Block Files: What it does
+- 🚩 Start program (UI button) — Scans, compiles, and runs every *Block.java*.
+- 🚶 Move steps MoveStepsBlock.java Moves 10 steps using Math.cos/Math.sin and Math.abs.
+- 🔄 Turn degree TurnDegreeBlock.java Turns by 45° and wraps to 0–360 with Math.floorMod + Math.abs.
+- 🎯 Go to sprite GoToSpriteBlock.java Jumps to another sprite's position using Math.abs on stored coords
+- ✏️ Your block YourBlock.java The placeholder — write anything
+
+<small>All math comes from java.lang.Math, which is auto-imported. No imports
+needed, ever, for Math.</small>
