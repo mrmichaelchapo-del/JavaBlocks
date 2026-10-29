@@ -16,7 +16,7 @@ an in-app console.
 - [How blocks work](#-how-blocks-work)
 - [Block catalog](#-block-catalog)
 - [Running blocks](#-running-blocks)
-- [The Programming Station](#-the-programming-station)
+- [The Programming Station](programming.md)
 - [Requirements](#️-requirements)
 - [Build & run](#️-build--run)
 - [Project layout](#-project-layout)
