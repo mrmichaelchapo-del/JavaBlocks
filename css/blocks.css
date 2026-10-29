@@ -1,0 +1,83 @@
+/*
+ * JavaBlocks App
+ * Copyright 2026 JavaBlocks
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * This product includes software developed by JavaBlocks.
+ */
+
+/* 🎯 the free-positioning workspace behind the blocks */
+.workspace {
+    -fx-background-color: #f4f6fa;
+}
+
+/* 🧱 base look for every block on the workspace */
+.block {
+    -fx-background-color: #ffd84d;
+    -fx-background-radius: 8;
+    -fx-border-color: #b89b1f;
+    -fx-border-radius: 8;
+    -fx-border-width: 1.5;
+    -fx-padding: 8 16 8 16;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2b2b2b;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.18), 6, 0.2, 0, 2);
+}
+
+/* 🖱️ hover: lift the block a little */
+.block:hover {
+    -fx-background-color: #ffe27a;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.28), 10, 0.3, 0, 3);
+}
+
+/* 👆 pressed: push it back down */
+.block:pressed {
+    -fx-background-color: #f0c93a;
+    -fx-translate-y: 1;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.12), 4, 0.15, 0, 1);
+}
+
+/* 🚩 the start block gets its own accent */
+.block-start {
+    -fx-background-color: #7ee081;
+    -fx-border-color: #3f9e45;
+}
+
+.block-start:hover {
+    -fx-background-color: #98ec9b;
+}
+
+.block-start:pressed {
+    -fx-background-color: #5fc963;
+}
+
+/* 🖥️ the console area */
+.console {
+    -fx-font-family: "monospace";
+    -fx-font-size: 12px;
+    -fx-control-inner-background: #1e1e1e;
+    -fx-text-fill: #d4d4d4;
+    -fx-highlight-fill: #264f78;
+    -fx-background-color: #1e1e1e;
+}
+
+/* 🏷️ the little "Console" label above it */
+.console-label {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #555555;
+    -fx-padding: 4 8 4 8;
+}
