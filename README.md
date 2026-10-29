@@ -85,7 +85,7 @@ The placeholder block says it best:
  *
  * Write something, it's just Java.
 */
-
+```
 ## Why plain Java?
 
 Because the whole point is that anyone who knows Java can drop a file
