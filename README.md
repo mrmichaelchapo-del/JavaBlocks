@@ -68,3 +68,20 @@ that breaks the previous milestone's demo.
 ## 🧱 How blocks work
 
 Every block is a Java file in `blocks/`, named `<BlockName>Block.java`:
+
+
+## Rules:
+
+- The file name **must** end in `Block.java`.
+- The class name must match the file name
+  (`MoveStepsBlock.java` → `public class MoveStepsBlock`).
+- It needs a `main(String[] args)` method — that's what the runner executes.
+- It's just Java. Write whatever you want.
+
+The placeholder block says it best:
+
+```java
+/*
+ *
+ * Write something, it's just Java.
+*/
